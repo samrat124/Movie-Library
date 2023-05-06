@@ -1,0 +1,32 @@
+.movieForm{
+    display:grid;
+    gap:2%;
+    width:30%;
+    height:70vh;
+    margin:auto;
+    border:2px solid black;
+    box-shadow: 0px 0px 5px black;
+    padding:20px;
+}
+.movieForm>label{
+    display: flex;
+    width:90%;
+    margin: auto;
+    justify-content: space-between;
+}
+.movieForm>label>input{
+    padding:6px;
+    width: 60%;
+    outline: 1px solid grey;
+}
+
+
+
+
+@media screen and (max-width:800px) {
+    .movieForm{
+        width: 80%;
+        margin: auto;
+        height:70vh;
+    }
+}

@@ -1,0 +1,32 @@
+.Navbar-main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width:100%;
+    background-color: rgba(28, 21, 21, 0.874);
+    position: fixed;
+    z-index: 5;
+    top: 0%;
+    height: 70px;
+    margin-bottom: 70px;
+}
+.navHead{
+    color:white;
+}
+.searchBox{
+    padding:6px;
+    outline: 2px solid grey;
+    width:70%;
+}
+.searchDiv{
+    width:35%;
+}
+.searchDiv>button{
+    padding:8px 16px;
+    margin-left: 10px;
+    border-radius: 3px;
+    background-color: black;
+    color:white;
+    font-size: 16px;
+    border:none;
+}
